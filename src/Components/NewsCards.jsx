@@ -3,7 +3,7 @@ import React from 'react'
 
 const NewsCards = ({article}) => {
   return (
-    <div className='bg-white shadow-md rounded-xl p-4 hover:shadow-xl transition'>
+    <div className='bg-white shadow-md rounded-xl p-4 hover:shadow-xl dark:bg-gray-900 dark:text-white transition'>
        {article.urlToImage && (
         <img src={article.urlToImage}
         alt={article.title}

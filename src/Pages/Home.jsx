@@ -26,7 +26,6 @@ fetchNews();
 },[]);
   return (
     <div className='container mx-auto px-4 py-6'>
-    <Navbar/>
         {loading && <p className='text-gray-500'>Loading...</p>}
         {error && <p className='text-red-500'>Error: {error}</p>}
         {!loading && !error && <NewsList articals={articals}/>}

@@ -1,8 +1,10 @@
 import React from 'react'
 import Home from './Pages/Home'
+import Navbar from './Components/Navbar'
 const App = () => {
   return (
-    <div>
+    <div className='h-dvh'>
+      <Navbar/>
       <Home />
     </div>
   )

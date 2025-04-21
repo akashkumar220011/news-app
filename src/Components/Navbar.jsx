@@ -11,11 +11,11 @@ useEffect(()=>{
     }
 },[darkMode])
   return (
-    <nav className='bg-white dark:bg-gray-900 shadow-md'>
+    <nav className='bg-red-200 mb-2 dark:bg-gray-900 dark:text-white shadow-md'>
            <div className='container mx-auto px-4 py-4 flex justify-between items-center'>
         <h1 className='text-2xl font-boldtext-blue-600 dark:text-blue-400'>Latest News</h1>
             <div className='flex gap-4 items-center'>
-                <a className='text-gray-800 dark:text-200'>Home</a>
+                <a className='text-gray-800 dark:text-white'>Home</a>
                 <button onClick={()=> setDarkMode(!darkMode)}>{darkMode? '🌙 Dark' : '☀️ Light'}</button>
             </div>
         </div>
